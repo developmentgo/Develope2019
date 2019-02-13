@@ -67,7 +67,18 @@ body {
 
 <div class="content">
   <h2>리뷰에유</h2>
-  <p>수연이 만들면 되유</p>
+  <form action="process_create.php" method="post">
+   <input type="text" name="id" placeholder="ID"
+   <br></br>
+   <select name="interest">
+     <option value="IT">It</option>
+     <option value="SPORTS">Sports</option>
+     <option value="STUDY">Study</option>
+     <option value="TRIP">Trip</option>
+   </select>
+<br></br>
+<input type="submit">
+  </form>
 </div>
 
 <div class="footer">
