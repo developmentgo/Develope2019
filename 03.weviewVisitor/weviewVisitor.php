@@ -61,13 +61,20 @@ body {
   <!-- 효진이 만드세유 -->
   <a href="../02.weviewReview/weviewReview.html">리뷰</a>
   <!-- 수연 만드세유 -->
-  <a href="weviewVisitor.html">방명록</a>
+  <a href="weviewVisitor.php">방명록</a>
   <!-- 승기 만드세유-->
 </div>
 
 <div class="content">
   <h2>방명록</h2>
-  <p>승기 만들면 되유</p>
+  <p></p>
+  <form action="createReview.php" method="post">
+    <p> ID : <input type="text" name = "id"></p>
+    <p> 제목 : <input type="text" name = "title"></p>
+    <p> 방명록 : <textarea name = "description"></textarea></p>
+    <input type="submit">
+
+  </form>
 </div>
 
 <div class="footer">
