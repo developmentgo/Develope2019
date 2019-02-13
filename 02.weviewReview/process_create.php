@@ -18,6 +18,9 @@ $result = mysqli_query($conn, $sql);
 if($result === false){
 echo '실패';
 error_log(mysqli_error($conn));
+} else{
+  echo '성공 <a href="weviewReview.html">돌아가기</a>';
 }
+
 
 ?>
