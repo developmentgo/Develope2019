@@ -1,3 +1,4 @@
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +57,7 @@ body {
 
 <div class="topnav">
   <a href="../main.html">WEVIEW</a>
-
+	HELLO
   <a href="../01.weviewLogin/weviewLogin.html">로그인</a>
   <!-- 효진이 만드세유 -->
   <a href="../02.weviewReview/weviewReview.html">리뷰</a>
